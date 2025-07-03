@@ -12,13 +12,13 @@ export default function Hero() {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6">
-            <span className="text-foreground">Crafting</span>
+            <span className="text-gray-900 dark:text-white">Crafting</span>
             <span className="text-gold block sm:inline sm:ml-4">Elegance</span>
           </h1>
-          <p className="text-xl sm:text-2xl lg:text-3xl text-gold-dark mb-8 font-light">
+          <p className="text-xl sm:text-2xl lg:text-3xl text-gold-dark dark:text-gold-light mb-8 font-light">
             Since 1985
           </p>
-          <p className="text-lg sm:text-xl text-foreground/80 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl text-gray-700 dark:text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed">
             Discover the finest collection of premium Indian jewelry, where tradition meets contemporary design. 
             Each piece tells a story of heritage, craftsmanship, and timeless beauty.
           </p>

@@ -25,12 +25,12 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-background">
+    <section id="contact" className="py-20 bg-white dark:bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gold mb-6">Contact Us</h2>
           <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
-          <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-white/70 max-w-3xl mx-auto">
             Ready to start your jewelry journey? Get in touch with us for consultations, 
             custom designs, or to explore our collections.
           </p>
@@ -41,7 +41,7 @@ export default function Contact() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-gold mb-6">Get In Touch</h3>
-              <p className="text-foreground/80 text-lg leading-relaxed mb-8">
+              <p className="text-gray-700 dark:text-white/80 text-lg leading-relaxed mb-8">
                 Visit our showroom to experience the beauty of our collections in person, 
                 or reach out to us for any inquiries about our jewelry pieces.
               </p>
@@ -54,8 +54,8 @@ export default function Contact() {
                   <span className="text-gold text-xl">📍</span>
                 </div>
                 <div>
-                  <h4 className="text-foreground font-semibold mb-2">Visit Our Showroom</h4>
-                  <p className="text-foreground/70">
+                  <h4 className="text-gray-900 dark:text-white font-semibold mb-2">Visit Our Showroom</h4>
+                  <p className="text-gray-600 dark:text-white/70">
                     SHOP NO-1, GARADE HEIGHTS<br />
                     Dange Chowk Rd, opp. KESHAV MANGAL KARAYALAY<br />
                     near Gram Panchayat Building, Hinjawadi<br />
@@ -70,8 +70,8 @@ export default function Contact() {
                   <span className="text-gold text-xl">📞</span>
                 </div>
                 <div>
-                  <h4 className="text-foreground font-semibold mb-2">Call Us</h4>
-                  <p className="text-foreground/70">
+                  <h4 className="text-gray-900 dark:text-white font-semibold mb-2">Call Us</h4>
+                  <p className="text-gray-600 dark:text-white/70">
                     <a href="tel:+91-22-1234-5678" className="hover:text-gold transition-colors">
                       +91 22 1234 5678
                     </a><br />
@@ -87,8 +87,8 @@ export default function Contact() {
                   <span className="text-gold text-xl">✉️</span>
                 </div>
                 <div>
-                  <h4 className="text-foreground font-semibold mb-2">Email Us</h4>
-                  <p className="text-foreground/70">
+                  <h4 className="text-gray-900 dark:text-white font-semibold mb-2">Email Us</h4>
+                  <p className="text-gray-600 dark:text-white/70">
                     <a href="mailto:info@darshansoni.com" className="hover:text-gold transition-colors">
                       info@darshansoni.com
                     </a><br />
@@ -104,8 +104,8 @@ export default function Contact() {
                   <span className="text-gold text-xl">🕒</span>
                 </div>
                 <div>
-                  <h4 className="text-foreground font-semibold mb-2">Business Hours</h4>
-                  <p className="text-foreground/70">
+                  <h4 className="text-gray-900 dark:text-white font-semibold mb-2">Business Hours</h4>
+                  <p className="text-gray-600 dark:text-white/70">
                     Monday - Saturday: 10:00 AM - 8:00 PM<br />
                     Sunday: 11:00 AM - 6:00 PM<br />
                     Closed on National Holidays
@@ -116,11 +116,11 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-gradient-to-br from-card-bg to-section-bg rounded-2xl p-8 border border-border-color shadow-lg">
+          <div className="bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-black rounded-2xl p-8 border border-gray-200 dark:border-gray-700 shadow-lg">
             <h3 className="text-2xl font-semibold text-gold mb-6">Send Us a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-foreground font-medium mb-2">
+                <label htmlFor="name" className="block text-gray-900 dark:text-white font-medium mb-2">
                   Full Name *
                 </label>
                 <input
@@ -130,13 +130,13 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-background border border-border-color rounded-lg text-foreground placeholder-text-muted focus:outline-none focus:border-gold transition-colors"
+                  className="w-full px-4 py-3 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:border-gold transition-colors"
                   placeholder="Enter your full name"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-foreground font-medium mb-2">
+                <label htmlFor="email" className="block text-gray-900 dark:text-white font-medium mb-2">
                   Email Address *
                 </label>
                 <input
@@ -146,13 +146,13 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-background border border-border-color rounded-lg text-foreground placeholder-text-muted focus:outline-none focus:border-gold transition-colors"
+                  className="w-full px-4 py-3 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:border-gold transition-colors"
                   placeholder="Enter your email address"
                 />
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-foreground font-medium mb-2">
+                <label htmlFor="phone" className="block text-gray-900 dark:text-white font-medium mb-2">
                   Phone Number
                 </label>
                 <input
@@ -161,13 +161,13 @@ export default function Contact() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 bg-background border border-border-color rounded-lg text-foreground placeholder-text-muted focus:outline-none focus:border-gold transition-colors"
+                  className="w-full px-4 py-3 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:border-gold transition-colors"
                   placeholder="Enter your phone number"
                 />
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-foreground font-medium mb-2">
+                <label htmlFor="message" className="block text-gray-900 dark:text-white font-medium mb-2">
                   Message *
                 </label>
                 <textarea
@@ -177,7 +177,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={4}
-                  className="w-full px-4 py-3 bg-background border border-border-color rounded-lg text-foreground placeholder-text-muted focus:outline-none focus:border-gold transition-colors resize-none"
+                  className="w-full px-4 py-3 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:border-gold transition-colors resize-none"
                   placeholder="Tell us about your jewelry needs..."
                 />
               </div>
@@ -198,7 +198,7 @@ export default function Contact() {
           <div className="w-24 h-1 bg-gold mx-auto mb-8"></div>
         </div>
 
-        <div className="bg-gradient-to-br from-card-bg to-section-bg rounded-2xl p-8 border border-border-color shadow-lg">
+        <div className="bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-black rounded-2xl p-8 border border-gray-200 dark:border-gray-700 shadow-lg">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Map */}
             <div className="relative">
@@ -220,7 +220,7 @@ export default function Contact() {
             <div className="space-y-6">
               <div>
                 <h4 className="text-xl font-semibold text-gold mb-4">Our Location</h4>
-                <p className="text-foreground/80 leading-relaxed">
+                <p className="text-gray-700 dark:text-white/80 leading-relaxed">
                   Located in the heart of Hinjawadi, Pune, our showroom is easily accessible 
                   and conveniently situated near major landmarks. Visit us to experience the 
                   finest collection of jewelry in a luxurious setting.
@@ -233,8 +233,8 @@ export default function Contact() {
                     <span className="text-gold text-sm">📍</span>
                   </div>
                   <div>
-                    <h5 className="text-foreground font-medium mb-1">Landmark</h5>
-                    <p className="text-foreground/70 text-sm">Opposite KESHAV MANGAL KARAYALAY, near Gram Panchayat Building</p>
+                    <h5 className="text-gray-900 dark:text-white font-medium mb-1">Landmark</h5>
+                    <p className="text-gray-600 dark:text-white/70 text-sm">Opposite KESHAV MANGAL KARAYALAY, near Gram Panchayat Building</p>
                   </div>
                 </div>
 
@@ -243,8 +243,8 @@ export default function Contact() {
                     <span className="text-gold text-sm">🚗</span>
                   </div>
                   <div>
-                    <h5 className="text-foreground font-medium mb-1">Parking</h5>
-                    <p className="text-foreground/70 text-sm">Convenient parking available in front of the building</p>
+                    <h5 className="text-gray-900 dark:text-white font-medium mb-1">Parking</h5>
+                    <p className="text-gray-600 dark:text-white/70 text-sm">Convenient parking available in front of the building</p>
                   </div>
                 </div>
 
@@ -253,8 +253,8 @@ export default function Contact() {
                     <span className="text-gold text-sm">🚌</span>
                   </div>
                   <div>
-                    <h5 className="text-foreground font-medium mb-1">Public Transport</h5>
-                    <p className="text-foreground/70 text-sm">Well connected by bus routes and auto-rickshaws</p>
+                    <h5 className="text-gray-900 dark:text-white font-medium mb-1">Public Transport</h5>
+                    <p className="text-gray-600 dark:text-white/70 text-sm">Well connected by bus routes and auto-rickshaws</p>
                   </div>
                 </div>
               </div>

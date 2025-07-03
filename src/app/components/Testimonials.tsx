@@ -24,12 +24,12 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="py-20 bg-gradient-to-b from-section-bg to-background">
+    <section id="testimonials" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gold mb-6">What Our Customers Say</h2>
           <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
-          <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-white/70 max-w-3xl mx-auto">
             Don't just take our word for it. Here's what our valued customers have to say about 
             their experience with Darshan Soni Jewelers.
           </p>
@@ -39,7 +39,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial) => (
             <div 
               key={testimonial.id}
-              className="bg-gradient-to-br from-card-bg to-section-bg rounded-2xl p-8 border border-border-color hover:border-gold/40 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              className="bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-black rounded-2xl p-8 border border-gray-200 dark:border-gray-700 hover:border-gold/40 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               {/* Rating Stars */}
               <div className="flex mb-6">
@@ -49,7 +49,7 @@ export default function Testimonials() {
               </div>
 
               {/* Testimonial Content */}
-              <blockquote className="text-foreground/80 text-lg leading-relaxed mb-6 italic">
+              <blockquote className="text-gray-700 dark:text-white/80 text-lg leading-relaxed mb-6 italic">
                 "{testimonial.content}"
               </blockquote>
 
@@ -61,7 +61,7 @@ export default function Testimonials() {
                   </span>
                 </div>
                 <div>
-                  <div className="text-foreground font-semibold">{testimonial.name}</div>
+                  <div className="text-gray-900 dark:text-white font-semibold">{testimonial.name}</div>
                   <div className="text-gold/80 text-sm">{testimonial.role}</div>
                 </div>
               </div>
@@ -77,19 +77,19 @@ export default function Testimonials() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-gold mb-2">15K+</div>
-              <div className="text-foreground/70">Happy Customers</div>
+              <div className="text-gray-600 dark:text-white/70">Happy Customers</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-gold mb-2">4.9</div>
-              <div className="text-foreground/70">Average Rating</div>
+              <div className="text-gray-600 dark:text-white/70">Average Rating</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-gold mb-2">38</div>
-              <div className="text-foreground/70">Years Experience</div>
+              <div className="text-gray-600 dark:text-white/70">Years Experience</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-gold mb-2">100%</div>
-              <div className="text-foreground/70">Satisfaction</div>
+              <div className="text-gray-600 dark:text-white/70">Satisfaction</div>
             </div>
           </div>
         </div>

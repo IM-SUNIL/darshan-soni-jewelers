@@ -1,12 +1,12 @@
 export default function Footer() {
   return (
-    <footer className="bg-section-bg border-t border-border-color">
+    <footer className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold text-gold mb-4">Darshan Soni Jewelers</h3>
-            <p className="text-foreground/80 mb-6 leading-relaxed">
+            <p className="text-gray-700 dark:text-white/80 mb-6 leading-relaxed">
               Crafting elegance since 1985. We are committed to providing the finest quality 
               jewelry with exceptional craftsmanship and timeless designs.
             </p>
@@ -28,30 +28,30 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-foreground mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#home" className="text-foreground/70 hover:text-gold transition-colors">
+                <a href="#home" className="text-gray-600 dark:text-white/70 hover:text-gold transition-colors">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-foreground/70 hover:text-gold transition-colors">
+                <a href="#about" className="text-gray-600 dark:text-white/70 hover:text-gold transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#collections" className="text-foreground/70 hover:text-gold transition-colors">
+                <a href="#collections" className="text-gray-600 dark:text-white/70 hover:text-gold transition-colors">
                   Collections
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="text-foreground/70 hover:text-gold transition-colors">
+                <a href="#testimonials" className="text-gray-600 dark:text-white/70 hover:text-gold transition-colors">
                   Testimonials
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-foreground/70 hover:text-gold transition-colors">
+                <a href="#contact" className="text-gray-600 dark:text-white/70 hover:text-gold transition-colors">
                   Contact
                 </a>
               </li>
@@ -60,8 +60,8 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold text-foreground mb-4">Contact Info</h4>
-            <ul className="space-y-2 text-foreground/70">
+            <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Contact Info</h4>
+            <ul className="space-y-2 text-gray-600 dark:text-white/70">
               <li>SHOP NO-1, GARADE HEIGHTS</li>
               <li>Hinjawadi, Pune</li>
               <li>Maharashtra 411057, India</li>
@@ -80,18 +80,18 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-border-color mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-foreground/60 text-sm">
+        <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-gray-500 dark:text-gray-400 text-sm">
             © 2024 Darshan Soni Jewelers. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-foreground/60 hover:text-gold text-sm transition-colors">
+            <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-gold text-sm transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-foreground/60 hover:text-gold text-sm transition-colors">
+            <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-gold text-sm transition-colors">
               Terms of Service
             </a>
-            <a href="#" className="text-foreground/60 hover:text-gold text-sm transition-colors">
+            <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-gold text-sm transition-colors">
               Return Policy
             </a>
           </div>

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-section-bg to-background">
+    <section id="about" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-black dark:to-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gold mb-6">About Our Legacy</h2>
@@ -10,21 +10,21 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Story Content */}
           <div className="space-y-6">
-            <h3 className="text-3xl font-semibold text-foreground mb-6">
+            <h3 className="text-3xl font-semibold text-gray-900 dark:text-white mb-6">
               Three Generations of Excellence
             </h3>
-            <p className="text-lg text-foreground/80 leading-relaxed">
+            <p className="text-lg text-gray-700 dark:text-white/90 leading-relaxed">
               Founded in 1985 by the visionary Darshan Soni, our jewelry house has been crafting 
               exceptional pieces that blend traditional Indian artistry with contemporary elegance. 
               What began as a small family workshop has grown into one of India's most trusted 
               names in premium jewelry.
             </p>
-            <p className="text-lg text-foreground/80 leading-relaxed">
+            <p className="text-lg text-gray-700 dark:text-white/90 leading-relaxed">
               Our master craftsmen, trained in age-old techniques passed down through generations, 
               bring each design to life with meticulous attention to detail. Every piece tells a 
               story of heritage, love, and the timeless beauty of fine jewelry.
             </p>
-            <p className="text-lg text-foreground/80 leading-relaxed">
+            <p className="text-lg text-gray-700 dark:text-white/90 leading-relaxed">
               Today, under the leadership of the third generation, we continue to honor our 
               founding principles while embracing modern design sensibilities, ensuring that 
               every creation is a masterpiece of both tradition and innovation.
@@ -34,15 +34,15 @@ export default function About() {
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-gold mb-2">38+</div>
-                <div className="text-foreground/70">Years of Excellence</div>
+                <div className="text-gray-600 dark:text-white/70">Years of Excellence</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-gold mb-2">10K+</div>
-                <div className="text-foreground/70">Happy Customers</div>
+                <div className="text-gray-600 dark:text-white/70">Happy Customers</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-gold mb-2">100%</div>
-                <div className="text-foreground/70">Pure Gold</div>
+                <div className="text-gray-600 dark:text-white/70">Pure Gold</div>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ export default function About() {
                 <div className="text-center">
                   <div className="text-6xl mb-4">✨</div>
                   <h4 className="text-xl font-semibold text-gold mb-2">Craftsmanship</h4>
-                  <p className="text-foreground/70">Where tradition meets innovation</p>
+                  <p className="text-gray-600 dark:text-white/70">Where tradition meets innovation</p>
                 </div>
               </div>
             </div>

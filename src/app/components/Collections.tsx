@@ -24,12 +24,12 @@ export default function Collections() {
   ];
 
   return (
-    <section id="collections" className="py-20 bg-background">
+    <section id="collections" className="py-20 bg-white dark:bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gold mb-6">Our Collections</h2>
           <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
-          <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-white/70 max-w-3xl mx-auto">
             Discover our carefully curated collections, each piece crafted with the finest materials 
             and traditional techniques passed down through generations.
           </p>
@@ -39,7 +39,7 @@ export default function Collections() {
           {collections.map((collection) => (
             <div 
               key={collection.id}
-              className="group relative bg-gradient-to-br from-card-bg to-section-bg rounded-2xl p-8 border border-border-color hover:border-gold/40 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              className="group relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-black rounded-2xl p-8 border border-gray-200 dark:border-gray-700 hover:border-gold/40 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               {/* Collection Icon */}
               <div className="text-6xl mb-6 text-center group-hover:scale-110 transition-transform duration-300">
@@ -50,14 +50,14 @@ export default function Collections() {
               <h3 className="text-2xl font-bold text-gold mb-4 text-center">
                 {collection.name}
               </h3>
-              <p className="text-foreground/80 text-center mb-6 leading-relaxed">
+              <p className="text-gray-700 dark:text-white/80 text-center mb-6 leading-relaxed">
                 {collection.description}
               </p>
 
               {/* Features List */}
               <ul className="space-y-2">
                 {collection.features.map((feature, index) => (
-                  <li key={index} className="flex items-center text-foreground/70">
+                  <li key={index} className="flex items-center text-gray-600 dark:text-white/70">
                     <span className="text-gold mr-2">•</span>
                     {feature}
                   </li>
@@ -79,7 +79,7 @@ export default function Collections() {
         <div className="mt-16 bg-gradient-to-r from-gold/10 to-gold/5 rounded-2xl p-8 border border-gold/30 shadow-lg">
           <div className="text-center">
             <h3 className="text-3xl font-bold text-gold mb-4">Limited Edition Collection</h3>
-            <p className="text-foreground/80 mb-6 max-w-2xl mx-auto">
+            <p className="text-gray-700 dark:text-white/80 mb-6 max-w-2xl mx-auto">
               Experience our exclusive limited edition pieces, crafted with rare gemstones and 
               featuring unique designs that celebrate our heritage.
             </p>
