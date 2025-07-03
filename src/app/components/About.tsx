@@ -16,7 +16,7 @@ export default function About() {
             <p className="text-base sm:text-lg text-gray-700 dark:text-white/90 leading-relaxed">
               Founded in 1985 by the visionary Darshan Soni, our jewelry house has been crafting 
               exceptional pieces that blend traditional Indian artistry with contemporary elegance. 
-              What began as a small family workshop has grown into one of India's most trusted 
+              What began as a small family workshop has grown into one of India&apos;s most trusted 
               names in premium jewelry.
             </p>
             <p className="text-base sm:text-lg text-gray-700 dark:text-white/90 leading-relaxed">

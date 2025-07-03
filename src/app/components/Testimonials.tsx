@@ -11,7 +11,7 @@ export default function Testimonials() {
       id: 2,
       name: "Rajesh Patel",
       role: "Customer",
-      content: "I've been buying jewelry from Darshan Soni for over 15 years. Their attention to detail and commitment to quality is what keeps me coming back. The family's legacy truly shows in every piece.",
+      content: "I&apos;ve been buying jewelry from Darshan Soni for over 15 years. Their attention to detail and commitment to quality is what keeps me coming back. The family&apos;s legacy truly shows in every piece.",
       rating: 5
     },
     {
@@ -30,7 +30,7 @@ export default function Testimonials() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gold mb-4 sm:mb-6">What Our Customers Say</h2>
           <div className="w-16 sm:w-20 md:w-24 h-1 bg-gold mx-auto mb-4 sm:mb-6"></div>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-white/70 max-w-2xl md:max-w-3xl mx-auto px-4 sm:px-0">
-            Don't just take our word for it. Here's what our valued customers have to say about 
+            Don&apos;t just take our word for it. Here&apos;s what our valued customers have to say about 
             their experience with Darshan Soni Jewelers.
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function Testimonials() {
 
               {/* Testimonial Content */}
               <blockquote className="text-gray-700 dark:text-white/80 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6 italic">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </blockquote>
 
               {/* Customer Info */}
@@ -67,7 +67,7 @@ export default function Testimonials() {
               </div>
 
               {/* Decorative Element */}
-              <div className="absolute top-3 sm:top-4 right-3 sm:right-4 text-gold/20 text-2xl sm:text-3xl md:text-4xl">"</div>
+              <div className="absolute top-3 sm:top-4 right-3 sm:right-4 text-gold/20 text-2xl sm:text-3xl md:text-4xl">&ldquo;</div>
             </div>
           ))}
         </div>
