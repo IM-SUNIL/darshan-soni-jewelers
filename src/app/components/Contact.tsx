@@ -204,7 +204,7 @@ export default function Contact() {
             <div className="relative">
               <div className="aspect-video bg-gradient-to-br from-gold/10 to-gold/5 rounded-xl border border-gold/30 overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.1234567890123!2d73.71234567890123!3d18.59876543210987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b8b8b8b8b8b8%3A0xb8b8b8b8b8b8b8b8!2sHinjawadi%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890123"
+                  src="https://www.google.com/maps?q=Darshan+Soni+Jewelers,+Hinjawadi,+Pune,+Maharashtra&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
