@@ -25,7 +25,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-12 sm:py-16 md:py-20 bg-white dark:bg-black">
+    <section id="contact" className="relative py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-pink-50 via-yellow-50 to-gold/10 dark:from-black dark:via-gold/10 dark:to-yellow-900 animate-gradient transition-colors duration-500 rounded-3xl shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10 sm:mb-14 md:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gold mb-4 sm:mb-6">Contact Us</h2>

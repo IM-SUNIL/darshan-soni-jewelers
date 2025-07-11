@@ -8,8 +8,8 @@ export default function ThemeToggle() {
 
   return (
     <button
+      className="p-2 rounded-full border-2 border-gold bg-gradient-to-tr from-yellow-50 via-pink-50 to-gold/20 dark:from-black dark:via-gold/10 dark:to-yellow-900 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:bg-gold/30 focus:outline-none focus:ring-2 focus:ring-gold"
       onClick={toggleTheme}
-      className="relative p-2 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-300 group"
       aria-label="Toggle theme"
     >
       {/* Sun Icon */}
