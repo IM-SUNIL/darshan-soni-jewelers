@@ -25,19 +25,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="transition-colors duration-300">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased transition-colors duration-300`}
-      >
-        <ThemeProvider>
+    <html lang="en">
+      <body className="bg-gray min-h-screen text-black font-sans">
+        <div className="container mx-auto px-4">
           {children}
-        </ThemeProvider>
+        </div>
       </body>
     </html>
   );
