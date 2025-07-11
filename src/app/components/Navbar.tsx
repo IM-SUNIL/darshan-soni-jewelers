@@ -14,13 +14,13 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md shadow-md transition-colors duration-500 animate-gradient bg-gradient-to-r from-pink-100 via-yellow-50 to-gold/20 dark:from-black dark:via-gold/10 dark:to-yellow-900">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md shadow-lg transition-colors duration-500 animate-gradient bg-gradient-to-r from-pink-100 via-yellow-50 to-gold/20 dark:from-black dark:via-gold/10 dark:to-yellow-900 py-2 px-2">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-14 sm:h-16">
+        <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo */}
           <div className="flex items-center">
             <h1 
-              className="text-lg sm:text-xl md:text-2xl font-bold text-gold cursor-pointer transition-all duration-300 hover:scale-105" 
+              className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gold cursor-pointer transition-all duration-300 hover:scale-110 drop-shadow-lg tracking-tight" 
               onClick={() => scrollToSection('home')}
             >
               Darshan Soni Jewelers
@@ -28,34 +28,34 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
+          <div className="hidden md:flex items-center space-x-6 lg:space-x-10">
             <button 
               onClick={() => scrollToSection('home')}
-              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-medium text-sm lg:text-base px-2 py-1 rounded-md hover:bg-gold/10"
+              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-semibold text-base lg:text-lg px-3 py-2 rounded-lg hover:bg-gold/10 focus:outline-none focus:ring-2 focus:ring-gold"
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-medium text-sm lg:text-base px-2 py-1 rounded-md hover:bg-gold/10"
+              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-semibold text-base lg:text-lg px-3 py-2 rounded-lg hover:bg-gold/10 focus:outline-none focus:ring-2 focus:ring-gold"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('collections')}
-              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-medium text-sm lg:text-base px-2 py-1 rounded-md hover:bg-gold/10"
+              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-semibold text-base lg:text-lg px-3 py-2 rounded-lg hover:bg-gold/10 focus:outline-none focus:ring-2 focus:ring-gold"
             >
               Collections
             </button>
             <button 
               onClick={() => scrollToSection('testimonials')}
-              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-medium text-sm lg:text-base px-2 py-1 rounded-md hover:bg-gold/10"
+              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-semibold text-base lg:text-lg px-3 py-2 rounded-lg hover:bg-gold/10 focus:outline-none focus:ring-2 focus:ring-gold"
             >
               Testimonials
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-medium text-sm lg:text-base px-2 py-1 rounded-md hover:bg-gold/10"
+              className="text-gray-900 dark:text-white hover:text-gold transition-colors duration-300 font-semibold text-base lg:text-lg px-3 py-2 rounded-lg hover:bg-gold/10 focus:outline-none focus:ring-2 focus:ring-gold"
             >
               Contact
             </button>

@@ -11,25 +11,25 @@ export default function Hero() {
       {/* Hero Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-lg">
             <span className="text-gray-900 dark:text-white">Crafting</span>
-            <span className="text-gold block sm:inline sm:ml-2 lg:ml-4">Elegance</span>
+            <span className="text-gold block sm:inline sm:ml-3 lg:ml-5 font-serif italic">Elegance</span>
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gold-dark dark:text-gold-light mb-6 sm:mb-8 font-light">
+          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gold-dark dark:text-gold-light mb-8 sm:mb-10 font-light tracking-wide">
             Since 1985
           </p>
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 dark:text-white/90 mb-8 sm:mb-10 lg:mb-12 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-700 dark:text-white/90 mb-10 sm:mb-12 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0 font-medium">
             Discover the finest collection of premium Indian jewelry, where tradition meets contemporary design. 
             Each piece tells a story of heritage, craftsmanship, and timeless beauty.
           </p>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4 sm:px-0">
-            <button className="group relative w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gold text-black font-semibold rounded-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-gold/25 text-sm sm:text-base">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center px-4 sm:px-0">
+            <button className="group relative w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-5 bg-gradient-to-r from-gold via-yellow-300 to-pink-200 text-black font-bold rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-gold/25 text-base sm:text-lg tracking-wide">
               <span className="relative z-10">Explore Collections</span>
               <div className="absolute inset-0 shimmer opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
-            <button className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 border-2 border-gold text-gold font-semibold rounded-lg hover:bg-gold hover:text-black transition-all duration-300 text-sm sm:text-base">
+            <button className="w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-5 border-2 border-gold text-gold font-bold rounded-xl shadow-md hover:bg-gold hover:text-black transition-all duration-300 text-base sm:text-lg tracking-wide">
               Book Consultation
             </button>
           </div>

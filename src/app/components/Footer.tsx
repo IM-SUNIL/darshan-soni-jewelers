@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="w-full py-6 px-4 text-center text-gray-700 dark:text-gray-200 bg-gradient-to-r from-gold/10 via-yellow-50 to-pink-100 dark:from-black dark:via-gold/10 dark:to-yellow-900 animate-gradient transition-colors duration-500">
+    <footer className="w-full py-10 px-4 text-center text-gray-700 dark:text-gray-200 bg-gradient-to-r from-gold/10 via-yellow-50 to-pink-100 dark:from-black dark:via-gold/10 dark:to-yellow-900 animate-gradient transition-colors duration-500 shadow-inner border-t-2 border-gold/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
           {/* Brand */}
           <div className="md:col-span-2 lg:col-span-2">
             <h3 className="text-xl sm:text-2xl font-bold text-gold mb-3 sm:mb-4">Darshan Soni Jewelers</h3>
